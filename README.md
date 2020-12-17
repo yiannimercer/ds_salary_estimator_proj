@@ -49,4 +49,11 @@ After scraping the data, I needed to clean it up so that it was usable for our m
   * Excel 
   * AWS
   * Spark
- 
+* Column for simplified job title and Seniority
+* Column for the length of the job description 
+
+## EDA
+
+I examined the distributions of the data and the value counts for the various categorical variables.  Below are a few highlights from the pivot tables.
+
+
