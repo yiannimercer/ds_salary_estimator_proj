@@ -54,6 +54,30 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 
 ## EDA
 
-I examined the distributions of the data and the value counts for the various categorical variables.  Below are a few highlights from the pivot tables.
+I examined the distributions of the data and the value counts for the various categorical variables.  Below are a few highlights.
 
+![alt text](https://github.com/yiannimercer/ds_salary_estimator_proj/blob/main/ds_salalry_breakdown_job_simp.png) ![alt text](https://github.com/yiannimercer/ds_salary_estimator_proj/blob/main/ds_salary_corr_heatmap.png)
 
+![alt text](https://github.com/yiannimercer/ds_salary_estimator_proj/blob/main/job_simp.png)
+
+## Model Building
+
+First, I transformed the categorical variables into dummy variables.  I also split the data into train and test sets with a test size of 20%.
+
+I tried three different models and evaluated them using Mean Absolute Error.  I chose MAE because it is relatively easy to interpret and outliters aren't particularly bad for this type of analysis.  
+
+The three models I developed: 
+1) Multiple Linear Regression: Baseline for the model
+2) LASSO Regresion: Due to the sparse data from the many categorical variables, I throught a normalized regression like LASSO would be effective. 
+3) Random Forest: Again, with the sparsity associated with the date, I thought that this would be a good fit. 
+
+## Model Performance
+
+The LASSO Regression model far outperformed the Linear Regression.  However, the Random Forest model performed very similar. 
+* Linear Regression: 9759815.54
+* LASSO Regression: 24.48
+* Random Forest: 26.39
+
+## Productionaization
+
+In this step, I built a flask API endpoint that was hosted on a local webserver by following along with Ken Jee and the TDS tutorial in the reference section above.  The API endpoint takes in a reqest with a list of values from a job listing and returns an estimated salary. 
