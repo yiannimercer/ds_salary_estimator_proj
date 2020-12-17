@@ -8,12 +8,12 @@
 * Built a client facing API using flask.
 
 ## Code and Resources Used
-Python Version: 3.7.6
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle, require
-For Web Framework Requirements: pip install -r requirements.txt
-Scraper Guide: https://github.com/arapfaik/scraping-glassdoor-selenium
-Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
-Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+Python Version: 3.7.6    
+Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle, require  
+For Web Framework Requirements: pip install -r requirements.txt  
+Scraper Guide: https://github.com/arapfaik/scraping-glassdoor-selenium  
+Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
+Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
 
 ## YouTube Project Walk-Through (This project is an exact replica and was completed for learning purposes)
 https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
