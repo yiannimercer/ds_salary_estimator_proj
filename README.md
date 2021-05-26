@@ -78,4 +78,4 @@ The LASSO Regression model far outperformed the Linear Regression.  However, the
 
 ## Productionaization
 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with Ken Jee and the TDS tutorial in the reference section above.  The API endpoint takes in a reqest with a list of values from a job listing and returns an estimated salary. 
+In this step, I built a flask API endpoint that was hosted on a local webserver by following along with Ken Jee and the TDS tutorial The API endpoint takes in a reqest with a list of values from a job listing and returns an estimated salary. 
