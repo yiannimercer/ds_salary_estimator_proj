@@ -1,5 +1,5 @@
 # Data Science Salary Estimator: Project Overview 
-### This project was completed by following Ken Jee's Data Science Project From Scratch Series on Youtube. (Series linked below)
+
 
 * Created a tool that estmates data science salaries (MAE ~ $ 24K) to help data scientists negotitate their income when they get a job.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
@@ -15,8 +15,6 @@ Scraper Guide: https://github.com/arapfaik/scraping-glassdoor-selenium
 Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
 Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
 
-## YouTube Project Walk-Through (This project is an exact replica and was completed for learning purposes)
-https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 
 ## Web Scraping
 We modified the web scraper github repo (above) to scrape 1000 job openings from Glassdoor (https://www.glassdoor.com/index.htm).  From each job scraped, we got the following:
